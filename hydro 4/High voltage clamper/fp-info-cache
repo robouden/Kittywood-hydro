@@ -1,4 +1,4 @@
-22284752575088631
+22294383292365674
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54074,6 +54074,13 @@ emi filter
 0
 5
 5
+Footprints
+MODULE_ESP32_NODEMCU
+
+
+0
+38
+38
 Fuse
 FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
 Littelfuse fuse holder for ATO/FKS blade fuses, 80V, vertical, 20 x 6mm, PCB thickness up to 1.5mm, http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf
@@ -75488,6 +75495,13 @@ QSOP 0.635
 24
 24
 Package_SO
+ROHM_SOT-457_ClockwisePinNumbering
+ROHM SOT-457 SC-74, 6 Pin (https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/imh3at110-e.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+ROHM SC-74 SO
+0
+6
+6
+Package_SO
 SC-74-6_1.5x2.9mm_P0.95mm
 SC-74, 6 Pin (https://www.nxp.com/docs/en/package-information/SOT457.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SC-74 SO
@@ -83076,9 +83090,30 @@ SPST relay slim
 4
 4
 Relay_THT
+Relay_Socket_3PDT_Omron_PLE11-0
+29mm Dia, round mounting socket, 10A, 2kV AC / minute, 1e3Mohm, https://www.omron.com.tw/data_pdf/cat/common_sockets_ds_e_6_1_csm1819.pdf?#page=27
+tube type relay
+0
+11
+11
+Relay_THT
+Relay_Socket_4PDT_Omron_PY14-02
+21.4x25.8mm, 4Pole mounting socket, 3A, 1.5kV AC / minute, 1e2Mohm, https://www.omron.com.tw/data_pdf/cat/common_sockets_ds_e_6_1_csm1819.pdf?#page=19
+relay socket
+0
+14
+14
+Relay_THT
 Relay_Socket_DPDT_Finder_96.12
-https://gfinder.findernet.com/public/attachments/56/DE/S56DE.pdf
-Relay socket DPDT Finder 96.12 56.32
+DPDT relay socket, 15A max 10A per contact, 2kV AC Isolation, https://gfinder.findernet.com/public/attachments/56/DE/S56DE.pdf
+finder relay socket 96.12 56.32
+0
+8
+8
+Relay_THT
+Relay_Socket_DPDT_Omron_PLE08-0
+29mm Dia, round mounting socket, 10A, 2kV AC / minute, 1e3Mohm, https://www.omron.com.tw/data_pdf/cat/common_sockets_ds_e_6_1_csm1819.pdf?#page=27
+tube type relay
 0
 8
 8
