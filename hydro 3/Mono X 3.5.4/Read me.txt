@@ -1,0 +1,6 @@
+How to update the firmware
+1. Copy the three files in the folder to the root directory of the USB drive
+2. First print the "P_MXV5_4_0812(1)" file
+3. "P_MXF021.bin" and “P_MXFA036.bin”，only one of which is the correct FPGA firmware for your printer. 
+You could print the "P_MXF021.bin" file and wait for a while.If the screen successful restart, the update is successful.
+If the screen shows failure and would not restart，you would need to print“P_MXFA036.bin". Waiting for restarting and the update would be successful.
