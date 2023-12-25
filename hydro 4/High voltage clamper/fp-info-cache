@@ -1,4 +1,4 @@
-22294383292365674
+22308571865384193
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -50491,6 +50491,13 @@ DCDC-Converter TRACO TMRxxxx Single/Dual_output
 7
 7
 Converter_DCDC
+Converter_DCDC_TRACO_TMR4-xxxxWI_THT
+DCDC-Converter, TRACO, TMR4-xxxxWI, 4W, Rev. December 06. 2023 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tmr4wi.pdf)
+DCDC-Converter TRACO TMR4WI THT SIP-8 4W
+0
+7
+7
+Converter_DCDC
 Converter_DCDC_TRACO_TMU3-05xx_12xx_THT
 DCDC-Converter, TRACO, TMU3-05xx, TMU3-12xx, 3W, Rev. November 10. 2023 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tmu3.pdf)
 DCDC-Converter TRACO TMU3 THT SIP-4 3W
@@ -59345,6 +59352,13 @@ Inductor Radial series Radial pin pitch 10.00mm  diameter 14.2mm Neosid SD14
 0
 2
 2
+Inductor_THT
+L_Radial_D16.0mm_P10.00mm_Panasonic_15E-L
+Panasonic ELC Type 15E-L inductor, radial, shielded, pin pitch=10.00mm, diameter=16.0mm, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AGB0000/AGB0000CE10.pdf
+ELC15ExxxL
+0
+3
+3
 Inductor_THT
 L_Radial_D16.8mm_P11.43mm_Vishay_IHB-1
 Inductor, Radial series, Radial, pin pitch=11.43mm, , diameter=16.8mm, Vishay, IHB-1, http://www.vishay.com/docs/34015/ihb.pdf
@@ -74256,6 +74270,13 @@ PQFP 0.8
 44
 44
 Package_QFP
+PQFP-64_14x14mm_P0.8mm
+PQFP, 64 Pin (https://www.renesas.com/us/en/document/psc/package-drawing-qfp-64pin-prqp0064gb), generated with kicad-footprint-generator ipc_gullwing_generator.py
+PQFP QFP
+0
+64
+64
+Package_QFP
 PQFP-80_14x20mm_P0.8mm
 PQFP80 14x20 / QIP80E CASE 122BS (see ON Semiconductor 122BS.PDF)
 QFP 0.8
@@ -74304,6 +74325,13 @@ PQFP QFP
 0
 160
 160
+Package_QFP
+PQFP-168_28x28mm_P0.65mm
+PQFP, 168 Pin (https://www.renesas.cn/cn/zh/document/psc/package-drawing-qfp-168pin-prqp0168jb), generated with kicad-footprint-generator ipc_gullwing_generator.py
+PQFP QFP
+0
+168
+168
 Package_QFP
 PQFP-208_28x28mm_P0.5mm
 PQFP, 208 Pin (http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -75978,6 +76006,13 @@ SOP SO
 16
 16
 Package_SO
+SOP-18_7.495x11.515mm_P1.27mm
+SOP, 18 Pin (https://toshiba.semicon-storage.com/info/docget.jsp?did=30523), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+18
+18
+Package_SO
 SOP-18_7x12.5mm_P1.27mm
 SOP, 18 Pin (https://toshiba.semicon-storage.com/info/docget.jsp?did=30523), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOP SO
@@ -75998,6 +76033,13 @@ SOP SO
 0
 24
 24
+Package_SO
+SOP-44_12.6x28.5mm_P1.27mm
+SOP, 44 Pin (https://www.mxic.com.tw/Lists/Datasheet/Attachments/8177/MX23C6410,%205V,%2064Mb,%20v3.1.pdf#page=5), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+44
+44
 Package_SO
 SSO-4_6.7x5.1mm_P2.54mm_Clearance8mm
 4-Lead Plastic Stretched Small Outline (SSO/Stretched SO), see https://www.vishay.com/docs/84299/vor1142b4.pdf
@@ -76460,6 +76502,13 @@ TSOP-II 32
 0
 32
 32
+Package_SO
+TSOP-II-40-44_10.16x18.37mm_P0.8mm
+TSOP-II, 40 Pin (https://www.renesas.com/us/en/document/psc/package-drawing-tsop2-44pin-ptsb0044ge-e), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSOP-II SO
+0
+40
+40
 Package_SO
 TSOP-II-44_10.16x18.41mm_P0.8mm
 TSOP-II, 44 Pin (http://www.issi.com/WW/pdf/61-64C5128AL.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py

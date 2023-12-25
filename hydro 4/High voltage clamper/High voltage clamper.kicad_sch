@@ -4,465 +4,10 @@
 	(generator_version "7.99")
 	(uuid "0c579c7f-c211-4bd8-99a0-966a9097b02e")
 	(paper "A4")
+	(title_block
+		(date "2023-12-25")
+	)
 	(lib_symbols
-		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:D"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:Lamp"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.0254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LA"
-				(at 0.635 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Lamp"
-				(at 0.635 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Lamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "lamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Lamp_0_1"
-				(polyline
-					(pts
-						(xy -1.778 1.778) (xy 1.778 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 1.778) (xy -1.778 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Lamp_1_1"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -584,38 +129,29 @@
 				)
 			)
 		)
-		(symbol "Diode:ZMDxx"
-			(pin_numbers hide)
-			(pin_names hide)
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "ZMDxx"
-				(at 0 -2.54 0)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_MiniMELF"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://diotec.com/tl_files/diotec/files/pdf/datasheets/zmd1"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -624,7 +160,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1000mW Zener Diode, MiniMELF"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -633,7 +169,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "zener diode"
+			(property "Description" "Potentiometer"
 				(at 0 0 0)
 				(effects
 					(font
@@ -642,7 +178,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*MiniMELF*"
+			(property "ki_keywords" "resistor variable"
 				(at 0 0 0)
 				(effects
 					(font
@@ -651,10 +187,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "ZMDxx_0_1"
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 2.54 0) (xy 1.524 0)
 					)
 					(stroke
 						(width 0)
@@ -666,20 +211,19 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -689,11 +233,11 @@
 					)
 				)
 			)
-			(symbol "ZMDxx_1_1"
+			(symbol "R_Potentiometer_1_1"
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -710,8 +254,8 @@
 				)
 				(pin passive line
 					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
+					(length 1.27)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -719,6 +263,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1275,40 +837,16 @@
 		)
 	)
 	(junction
-		(at 129.54 91.44)
+		(at 132.08 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "155d31ab-bd63-4921-a972-d4b40a61e555")
+		(uuid "59cc464e-9a77-4ffd-a3db-c647fad2901c")
 	)
 	(junction
-		(at 137.16 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1cd9c8c7-abfc-4a78-9991-c1d1ce603eea")
-	)
-	(junction
-		(at 95.25 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5dae38d2-6fbf-42b6-b72c-ba70e87e6f3f")
-	)
-	(junction
-		(at 147.32 45.72)
+		(at 147.32 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7977fbd6-ddc1-4c91-a8ef-64ac90b6de7e")
-	)
-	(junction
-		(at 129.54 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79ac23be-5860-4654-9845-0e2fc0c201f4")
-	)
-	(junction
-		(at 120.65 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "821b5acc-7de5-47ef-bcc9-f7496ecd5fe7")
 	)
 	(junction
 		(at 147.32 91.44)
@@ -1317,46 +855,30 @@
 		(uuid "92d222e5-00aa-4640-8073-c032bc009db2")
 	)
 	(junction
-		(at 137.16 91.44)
+		(at 132.08 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e7729a1e-07cc-4d53-84c5-7fca7d347208")
-	)
-	(junction
-		(at 120.65 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7b0546a-f2a3-44d1-a162-516f88245d86")
+		(uuid "c5069f03-f6ec-4eef-b9be-3c11e3878f35")
 	)
 	(wire
 		(pts
-			(xy 106.68 73.66) (xy 109.22 73.66)
+			(xy 132.08 53.34) (xy 147.32 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0145c7ec-1b7d-4ca8-8f79-c476b1199c48")
+		(uuid "208ac6ce-1114-4e88-b53a-ad884ae39848")
 	)
 	(wire
 		(pts
-			(xy 120.65 73.66) (xy 120.65 80.01)
+			(xy 132.08 59.69) (xy 132.08 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07ebbdef-7c2a-43b3-9ada-ef9cccb2a34e")
-	)
-	(wire
-		(pts
-			(xy 99.06 73.66) (xy 95.25 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "387f6237-512b-4dbf-befa-19bb3c27341f")
+		(uuid "3a8a033b-4a30-400a-a2bf-adfc4a4829c7")
 	)
 	(wire
 		(pts
@@ -1370,7 +892,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 45.72) (xy 147.32 45.72)
+			(xy 90.17 53.34) (xy 132.08 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1380,47 +902,37 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 73.66) (xy 129.54 78.74)
+			(xy 139.7 81.28) (xy 139.7 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a8949f1-58cb-4693-a6b6-27bc0a413787")
+		(uuid "4279c479-5321-49ff-8589-734f7a59e2af")
 	)
 	(wire
 		(pts
-			(xy 137.16 73.66) (xy 139.7 73.66)
+			(xy 132.08 67.31) (xy 132.08 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58707d00-41dc-4f36-a567-438cda8a4bba")
+		(uuid "66f54b38-cc25-44c6-9114-ef2055ac1ac5")
 	)
 	(wire
 		(pts
-			(xy 120.65 87.63) (xy 120.65 91.44)
+			(xy 135.89 81.28) (xy 139.7 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8507a594-3a01-450f-9ef8-829c22934a90")
+		(uuid "777df53c-72c1-478a-bfcd-b298613db415")
 	)
 	(wire
 		(pts
-			(xy 129.54 86.36) (xy 129.54 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f00662e-d4a4-41b8-bbac-b975ccaa8398")
-	)
-	(wire
-		(pts
-			(xy 147.32 91.44) (xy 190.5 91.44)
+			(xy 147.32 91.44) (xy 187.96 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1430,47 +942,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 45.72) (xy 95.25 45.72)
+			(xy 132.08 91.44) (xy 147.32 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99c62f3d-afe5-4c50-9efa-2fe3edce20dc")
+		(uuid "9aa49286-ac5b-4288-bc24-6070518d0a09")
 	)
 	(wire
 		(pts
-			(xy 137.16 86.36) (xy 137.16 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1953b0d-33e7-4d85-b02d-90a77e672f43")
-	)
-	(wire
-		(pts
-			(xy 137.16 91.44) (xy 147.32 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9d07e82-d864-44ae-8781-945bff1d60ca")
-	)
-	(wire
-		(pts
-			(xy 116.84 73.66) (xy 120.65 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b41622a3-2054-4a05-a397-4a781e6fc673")
-	)
-	(wire
-		(pts
-			(xy 91.44 91.44) (xy 120.65 91.44)
+			(xy 91.44 91.44) (xy 132.08 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1480,47 +962,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 91.44) (xy 137.16 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc7d4951-1ef4-4981-b215-4177640e3361")
-	)
-	(wire
-		(pts
-			(xy 120.65 91.44) (xy 129.54 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be6144df-c602-4f97-bd7e-4a1aa4482b11")
-	)
-	(wire
-		(pts
-			(xy 95.25 73.66) (xy 95.25 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf442599-deec-429c-aae0-9a811838942c")
-	)
-	(wire
-		(pts
-			(xy 120.65 73.66) (xy 129.54 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c75085ef-21b3-43e7-a29d-fdeeea8ac17d")
-	)
-	(wire
-		(pts
-			(xy 147.32 45.72) (xy 187.96 45.72)
+			(xy 147.32 53.34) (xy 187.96 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1530,17 +972,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 73.66) (xy 137.16 78.74)
+			(xy 132.08 85.09) (xy 132.08 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7dd168c-484f-4c4d-a8c6-a6f3b3f20939")
+		(uuid "da0c23c6-ecb0-4ece-885f-3809bc167ed0")
 	)
 	(wire
 		(pts
-			(xy 147.32 45.72) (xy 147.32 54.61)
+			(xy 147.32 53.34) (xy 147.32 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1550,17 +992,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 73.66) (xy 137.16 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1df8529-d2c8-4c4a-94ff-c3798cbaf11f")
-	)
-	(wire
-		(pts
-			(xy 147.32 64.77) (xy 147.32 68.58)
+			(xy 147.32 67.31) (xy 147.32 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1568,9 +1000,89 @@
 		)
 		(uuid "eff3f610-f51d-4f17-8141-ac412e852240")
 	)
+	(text "Setup pot for startb conducting at 52V.. \nfull at about 64V.."
+		(exclude_from_sim no)
+		(at 137.16 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "844c7ae7-bbaf-4a5e-844a-455eb8936cfe")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 147.32 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14e10f0a-1d38-403e-b994-e8088e283a06")
+		(property "Reference" "R2"
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50 200watt"
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Box_L26.0mm_W5.0mm_P20.00mm"
+			(at 149.098 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a282b751-b754-4e7c-931b-b0ec8a29eb24")
+		)
+		(pin "2"
+			(uuid "87dfb52c-7efd-4d7b-bfb7-4f83e09e0866")
+		)
+		(instances
+			(project "High voltage clamper"
+				(path "/0c579c7f-c211-4bd8-99a0-966a9097b02e"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 90.17 45.72 0)
+		(at 90.17 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1579,7 +1091,7 @@
 		(fields_autoplaced yes)
 		(uuid "63e6a981-c77d-4e6f-8a42-d415d9eab672")
 		(property "Reference" "#PWR04"
-			(at 90.17 48.26 0)
+			(at 90.17 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,7 +1100,7 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 90.17 38.1 0)
+			(at 90.17 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1596,7 +1108,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 45.72 0)
+			(at 90.17 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1605,7 +1117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 45.72 0)
+			(at 90.17 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,7 +1126,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 90.17 45.72 0)
+			(at 90.17 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1635,77 +1147,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 137.16 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6988e75b-749b-49bc-a388-ccccaa7e5189")
-		(property "Reference" "R2"
-			(at 142.24 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 142.24 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 138.938 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 137.16 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6301a74e-036b-401b-913d-33d9ffaa9c2a")
-		)
-		(pin "2"
-			(uuid "a542e60e-3a8b-418e-b096-f3dee8f63ef3")
-		)
-		(instances
-			(project "High voltage clamper"
-				(path "/0c579c7f-c211-4bd8-99a0-966a9097b02e"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-VDC")
-		(at 190.5 91.44 0)
+		(at 187.96 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1714,7 +1157,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b494e91-6296-4786-a209-e3273f5ce3dd")
 		(property "Reference" "#PWR02"
-			(at 190.5 93.98 0)
+			(at 187.96 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,7 +1166,7 @@
 			)
 		)
 		(property "Value" "-VDC"
-			(at 190.5 83.82 0)
+			(at 187.96 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,7 +1174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 91.44 0)
+			(at 187.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1740,7 +1183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 91.44 0)
+			(at 187.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1749,7 +1192,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-VDC\""
-			(at 190.5 91.44 0)
+			(at 187.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1764,75 +1207,6 @@
 			(project "High voltage clamper"
 				(path "/0c579c7f-c211-4bd8-99a0-966a9097b02e"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ZMDxx")
-		(at 129.54 82.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "80a8ffeb-7c51-42d9-8741-f7da17b22b12")
-		(property "Reference" "D1"
-			(at 132.08 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ZMDxx"
-			(at 129.54 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 125.095 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://diotec.com/tl_files/diotec/files/pdf/datasheets/zmd1"
-			(at 129.54 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000mW Zener Diode, MiniMELF"
-			(at 129.54 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a7f7a73b-60fc-477e-9882-99e137e57bce")
-		)
-		(pin "1"
-			(uuid "ffefa231-4132-4dc6-9bbf-e4cec02cb89a")
-		)
-		(instances
-			(project "High voltage clamper"
-				(path "/0c579c7f-c211-4bd8-99a0-966a9097b02e"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -1915,77 +1289,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 120.65 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "894a53b5-43e9-41d1-9634-33ddaae4ed63")
-		(property "Reference" "C1"
-			(at 121.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 121.92 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
-			(at 121.6152 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 120.65 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a618e930-84d5-4835-b6b8-be143e612966")
-		)
-		(pin "2"
-			(uuid "91efa8fa-168b-4663-9442-33b48b5e4c9c")
-		)
-		(instances
-			(project "High voltage clamper"
-				(path "/0c579c7f-c211-4bd8-99a0-966a9097b02e"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+VDC")
-		(at 187.96 45.72 0)
+		(at 187.96 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1994,7 +1299,7 @@
 		(fields_autoplaced yes)
 		(uuid "c68891b8-7dff-43ee-b42a-45394e2f5b72")
 		(property "Reference" "#PWR01"
-			(at 187.96 48.26 0)
+			(at 187.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2003,7 +1308,7 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 187.96 38.1 0)
+			(at 187.96 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,7 +1316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 45.72 0)
+			(at 187.96 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +1325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 45.72 0)
+			(at 187.96 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,7 +1334,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 187.96 45.72 0)
+			(at 187.96 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2044,76 +1349,6 @@
 			(project "High voltage clamper"
 				(path "/0c579c7f-c211-4bd8-99a0-966a9097b02e"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Lamp")
-		(at 147.32 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "caf1f24d-e654-4f30-b944-d245721ef870")
-		(property "Reference" "LA1"
-			(at 151.13 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100Watt 100V"
-			(at 151.13 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Lamp"
-			(at 147.32 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "71b5f803-8335-4e9a-a0cb-6d433cf40b2a")
-		)
-		(pin "1"
-			(uuid "f6532a04-2e45-41e3-b883-ed4e2edd5cbc")
-		)
-		(instances
-			(project "High voltage clamper"
-				(path "/0c579c7f-c211-4bd8-99a0-966a9097b02e"
-					(reference "LA1")
 					(unit 1)
 				)
 			)
@@ -2186,94 +1421,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 113.03 73.66 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5de2c14-5aa2-496f-b44f-2e3782e8eb2e")
-		(property "Reference" "D2"
-			(at 113.03 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 113.03 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-15_P12.70mm_Horizontal"
-			(at 113.03 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 113.03 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 113.03 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 113.03 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5d36c9ff-1754-4259-8c5f-3f593e5c434f")
-		)
-		(pin "1"
-			(uuid "1a14364c-932c-4558-a409-898219529a3d")
-		)
-		(instances
-			(project "High voltage clamper"
-				(path "/0c579c7f-c211-4bd8-99a0-966a9097b02e"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 102.87 73.66 90)
+		(at 132.08 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2281,7 +1430,7 @@
 		(dnp no)
 		(uuid "f63dfb89-8cdb-4123-9900-05f8013b5772")
 		(property "Reference" "R1"
-			(at 100.33 74.93 90)
+			(at 137.16 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,8 +1438,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 104.14 68.58 90)
+		(property "Value" "4.7M"
+			(at 129.54 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2299,7 +1448,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 102.87 75.438 90)
+			(at 133.858 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,7 +1457,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 73.66 0)
+			(at 132.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2317,7 +1466,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 102.87 73.66 0)
+			(at 132.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,6 +1484,78 @@
 			(project "High voltage clamper"
 				(path "/0c579c7f-c211-4bd8-99a0-966a9097b02e"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 132.08 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcbdbe1d-6603-4aa1-b53c-d92b3686ce78")
+		(property "Reference" "RV1"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 129.54 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA14V-15_Vertical_Hole"
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c56fc3c-7139-4ce6-b7d7-7478822ff020")
+		)
+		(pin "3"
+			(uuid "747e47e2-1611-4896-9e5a-c000aadc42f4")
+		)
+		(pin "1"
+			(uuid "56837d0c-9b38-4ec1-985d-869cd93b6575")
+		)
+		(instances
+			(project "High voltage clamper"
+				(path "/0c579c7f-c211-4bd8-99a0-966a9097b02e"
+					(reference "RV1")
 					(unit 1)
 				)
 			)
