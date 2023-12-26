@@ -5,7 +5,11 @@
 	(uuid "0c579c7f-c211-4bd8-99a0-966a9097b02e")
 	(paper "A4")
 	(title_block
+		(title "Hight voltage clamping for Hydro V4")
 		(date "2023-12-25")
+		(rev "V0.9")
+		(company "Yr-design")
+		(comment 1 "Clamps top voltage slowly to apply the load resistors")
 	)
 	(lib_symbols
 		(symbol "Device:R"

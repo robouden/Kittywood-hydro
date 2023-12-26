@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Hight voltage clamping for Hydro V4")
+		(date "2023-12-26")
+		(rev "V0.9")
+		(company "Yr-design")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
