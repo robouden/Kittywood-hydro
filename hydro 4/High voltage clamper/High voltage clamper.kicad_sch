@@ -12,6 +12,143 @@
 		(comment 1 "Clamps top voltage slowly to apply the load resistors")
 	)
 	(lib_symbols
+		(symbol "Device:Lamp"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.0254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LA"
+				(at 0.635 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Lamp"
+				(at 0.635 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Lamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "lamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Lamp_0_1"
+				(polyline
+					(pts
+						(xy -1.778 1.778) (xy 1.778 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.778) (xy -1.778 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Lamp_1_1"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -124,167 +261,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:R_Potentiometer"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Potentiometer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Potentiometer_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -847,16 +823,22 @@
 		(uuid "59cc464e-9a77-4ffd-a3db-c647fad2901c")
 	)
 	(junction
-		(at 147.32 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7977fbd6-ddc1-4c91-a8ef-64ac90b6de7e")
-	)
-	(junction
 		(at 147.32 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92d222e5-00aa-4640-8073-c032bc009db2")
+	)
+	(junction
+		(at 132.08 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a44c6eee-ee80-4066-88b6-a89b67b9316c")
+	)
+	(junction
+		(at 147.32 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2c55f34-2e3c-40e0-9ce0-428b95ab0450")
 	)
 	(junction
 		(at 132.08 53.34)
@@ -906,7 +888,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 81.28) (xy 139.7 73.66)
+			(xy 132.08 73.66) (xy 132.08 77.47)
 		)
 		(stroke
 			(width 0)
@@ -916,7 +898,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 67.31) (xy 132.08 77.47)
+			(xy 132.08 67.31) (xy 132.08 73.66)
 		)
 		(stroke
 			(width 0)
@@ -926,13 +908,23 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 81.28) (xy 139.7 81.28)
+			(xy 147.32 53.34) (xy 147.32 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "777df53c-72c1-478a-bfcd-b298613db415")
+		(uuid "7dcd3548-f04a-4850-b0d2-590e49b40c62")
+	)
+	(wire
+		(pts
+			(xy 132.08 73.66) (xy 139.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86111ded-0ca2-48a5-b448-986940fd6adb")
 	)
 	(wire
 		(pts
@@ -956,6 +948,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 53.34) (xy 187.96 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec6d036-f185-4120-ba80-6b3486678afa")
+	)
+	(wire
+		(pts
 			(xy 91.44 91.44) (xy 132.08 91.44)
 		)
 		(stroke
@@ -966,13 +968,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 53.34) (xy 187.96 53.34)
+			(xy 147.32 66.04) (xy 147.32 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5cde45a-9916-4122-b196-f83aef8662a2")
+		(uuid "b94d0554-6ea7-42fb-8ae0-a57b2af45ac4")
 	)
 	(wire
 		(pts
@@ -984,48 +986,17 @@
 		)
 		(uuid "da0c23c6-ecb0-4ece-885f-3809bc167ed0")
 	)
-	(wire
-		(pts
-			(xy 147.32 53.34) (xy 147.32 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da7654d9-1d97-43ea-b80a-144792a9b03a")
-	)
-	(wire
-		(pts
-			(xy 147.32 67.31) (xy 147.32 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eff3f610-f51d-4f17-8141-ac412e852240")
-	)
-	(text "Setup pot for startb conducting at 52V.. \nfull at about 64V.."
-		(exclude_from_sim no)
-		(at 137.16 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "844c7ae7-bbaf-4a5e-844a-455eb8936cfe")
-	)
 	(symbol
 		(lib_id "Device:R")
-		(at 147.32 63.5 180)
+		(at 132.08 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "14e10f0a-1d38-403e-b994-e8088e283a06")
-		(property "Reference" "R2"
-			(at 152.4 63.5 0)
+		(uuid "253fa89d-7288-4c23-b18e-f3dd258682c2")
+		(property "Reference" "R3"
+			(at 137.16 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1033,8 +1004,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50 200watt"
-			(at 165.1 63.5 0)
+		(property "Value" "8k"
+			(at 129.54 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,8 +1013,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Box_L26.0mm_W5.0mm_P20.00mm"
-			(at 149.098 63.5 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 133.858 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1052,7 +1023,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 63.5 0)
+			(at 132.08 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1061,7 +1032,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 147.32 63.5 0)
+			(at 132.08 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,15 +1041,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a282b751-b754-4e7c-931b-b0ec8a29eb24")
+			(uuid "14c197e1-061a-4ddc-8eef-101d62c24127")
 		)
 		(pin "2"
-			(uuid "87dfb52c-7efd-4d7b-bfb7-4f83e09e0866")
+			(uuid "4cf8172d-fd67-4364-affd-0345e136f4ff")
 		)
 		(instances
 			(project "High voltage clamper"
 				(path "/0c579c7f-c211-4bd8-99a0-966a9097b02e"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -1425,6 +1396,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Lamp")
+		(at 147.32 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6953f6e-cb01-4c55-a57d-f1aceb7fe271")
+		(property "Reference" "LA1"
+			(at 151.13 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100Watt"
+			(at 151.13 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Lamp"
+			(at 147.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d700a0f3-5b60-40d2-83d8-1b76d56dc8b0")
+		)
+		(pin "2"
+			(uuid "9a1b8345-200d-4edb-9572-b116b1f37b9d")
+		)
+		(instances
+			(project "High voltage clamper"
+				(path "/0c579c7f-c211-4bd8-99a0-966a9097b02e"
+					(reference "LA1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 132.08 63.5 180)
 		(unit 1)
@@ -1442,7 +1483,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7M"
+		(property "Value" "560k"
 			(at 129.54 63.5 0)
 			(effects
 				(font
@@ -1488,78 +1529,6 @@
 			(project "High voltage clamper"
 				(path "/0c579c7f-c211-4bd8-99a0-966a9097b02e"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 132.08 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fcbdbe1d-6603-4aa1-b53c-d92b3686ce78")
-		(property "Reference" "RV1"
-			(at 144.78 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1M"
-			(at 129.54 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA14V-15_Vertical_Hole"
-			(at 132.08 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 132.08 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8c56fc3c-7139-4ce6-b7d7-7478822ff020")
-		)
-		(pin "3"
-			(uuid "747e47e2-1611-4896-9e5a-c000aadc42f4")
-		)
-		(pin "1"
-			(uuid "56837d0c-9b38-4ec1-985d-869cd93b6575")
-		)
-		(instances
-			(project "High voltage clamper"
-				(path "/0c579c7f-c211-4bd8-99a0-966a9097b02e"
-					(reference "RV1")
 					(unit 1)
 				)
 			)
